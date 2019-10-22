@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 1</title>
+    <style>
+      body {
+        background: linear-gradient(to right, rgb(10,180,10), rgb(250,250,20));
+        font-family: Helvetica;
+        display: flex;
+        justify-content: center;
+      }
+      h1 {
+        font-weight: 400;
+        font-size: 20px;
+      }
+      form {
+        background: white;
+        box-shadow: 2px 2px 2px gray;
+        max-width: 300px;
+        padding: 12px 0;
+        margin-top: 20px;
+        text-align: center;
+      }
+      input {
+        width: 86%;
+        height: 30px;
+        margin-bottom: 16px;
+        font-size: 14px;
+        padding: 4px 10px;
+      }
+      button {
+        height: 36px;
+        width: 100px;
+        font-weight: 600;
+        font-size: 14px;
+        background: darkblue;
+        color: white;
+      }
+      button:hover {
+        background: rgb(10,180,10);
+        cursor: pointer;
+      }
+      button:focus {
+        background: rgb(10,180,10);
+      }
+      textarea {
+        width: 86%;
+        padding: 10px;
+        font-size: 14px;
+        height: 100px;
+        margin-bottom: 16px;
+        border: solid thin lightgray;
+      }
+
+      .cta-buttons {
+        display: flex;
+        justify-content: space-evenly;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h1>CONTACT US</h1>
+      <input id="name" name="name" placeholder="Name" />
+      <input id="email" name="email" placeholder="Email" />
+      <textarea name="comment"></textarea>
+      <div class="cta-buttons">
+          <button type="submit">SUBMIT</button>
+          <button type="button">RESET</button>
+      </div>
+    </form>
+  </body>
+</html>

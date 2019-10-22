@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 0 8%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+}
+
+.about-image-cursor {
+  display: none;
+}
+
+.image-hero {
+  width: 100%;
+  height: 800px;
+}
+
+.fixed-header-outer {
+  position: absolute;
+  width: 60%;
+}
+
+.fixed-header {
+  width: 100%;
+  margin-left: 20%;
+  margin-top: 160px;
+}
+
+.fixed-header .victoria, .fixed-header .spicer {
+  font-size: 100px;
+}
+
+.fixed-header .spicer {
+  transform: rotate(90deg);
+  float: right;
+}
+
+.glide__track {
+  margin: 0;
+  padding: 0;
+}
+
+.slide-caption {
+  position: absolute;
+  bottom: -140px;
+  left: 170px;
+}
+
+.home-content {
+  margin-top: 64px;
+}
+
+.image-right {
+  position: absolute;
+  bottom: -1800px;
+  left: 500px;
+}
+
+.bio {
+  margin-top: 300px;
+  font-size: 32px;
+}
+
+.bio-wrapper img {
+  max-height: 32px;
+}
+
+.bio-wrapper p {
+  padding: 24px;
+}
+
+.bio-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+#main-navigation {
+  margin: 0 30%;
+}
+
+#main-navigation ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#main-navigation li {
+  list-style: none;
+  display: inline-block;
+}
