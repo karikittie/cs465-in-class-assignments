@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 1</title>
+  </head>
+  <body>
+    <script>
+      [...new Array(100)]
+        .map((_, i) => i + 1)
+        .forEach(n => {
+          let result = '';
+          if (n % 3 === 0) result += 'fizz';
+          if (n % 5 === 0) result += 'buzz';
+          if (result) console.log(result);
+          else console.log(n);
+        });
+    </script>
+  </body>
+</html>

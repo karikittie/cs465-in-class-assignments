@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 4</title>
+  </head>
+  <body>
+    <div id="height"></div>
+    <div id="width"></div>
+    <script>
+      const updateSizes = () => {
+        const height = window.innerHeight;
+        const width = window.innerWidth;
+        document.getElementById('height').innerHTML = `Window Height: ${height}`;
+        document.getElementById('width').innerHTML = `Window Width: ${width}`;
+      };
+      window.addEventListener('resize', updateSizes);
+      updateSizes();
+    </script>
+  </body>
+</html>
