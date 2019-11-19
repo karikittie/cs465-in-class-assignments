@@ -1,7 +1,7 @@
 # CS 465/565 Assignments
 
 ## Assignments
----
+
 ### Assignment 1
 
 Learning the basics of HTML tags and syntax
